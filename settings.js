@@ -9,10 +9,10 @@ const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.SESSION_ID = process.env.SESSION_ID || "HansTz&joASzZKb#O4cn1ZZrduZIz5A_GZrt-XxEA2PHbPI4_MGxnA64rPE" //fallback to default if not in .env
+global.ownernomer = process.env.OWNER_NUMBER || "27783583068"
 
-global.ownername = process.env.OWNER_NAME || "HansTech"
+global.ownername = process.env.OWNER_NAME || "FrankTech"
 
 global.ytname = "HANSTZ-TECH"
 
@@ -20,10 +20,10 @@ global.socialm = "GitHub: Mrhanstz"
 
 global.location = "AFRICA, TANZANIA, DODOMA"
 
-global.ownernumber = process.env.OWNER_NUMBER || '255614195217'  //Owner number
+global.ownernumber = process.env.OWNER_NUMBER || '27783583068'  //Owner number
 
 global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
-global.botname = 'HANS-XMD' //name of the bot
+global.botname = 'Frank-XMD' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
@@ -41,7 +41,7 @@ global.prefa = ['','!','.','#','/']
 
 
 //bot settings
-global.autolikestatus = true //For auto react Status Random
+global.autolikestatus = false //For auto react Status Random
 global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = true //auto typing + recording
@@ -50,7 +50,7 @@ global.autobio = true //auto update bio
 global.anti91 = false //auto block +91 
 global.autoswview = true //auto view status/story
 global.autoreact = false // This is For Auto React 
-global.welcome = false // For Welcome massage groups
+global.welcome = true // For Welcome massage groups
 
 
 global.wagc = "https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31";
